@@ -32,12 +32,12 @@ The details of the tasks are available on the project [github repository](https:
   In short the script extracts the libtestflight.a file from the SDK and then runs the mdtool on the bindings project file.
   The package is generated from a template using the FAKE NuGet method, and placed into ```build/package```
 
-Now the Nuget package can be uploaded to your personal or company NuGet server.
+Next the Nuget package can be uploaded to your personal or company NuGet server.
   I created my own feed on [mygit](https://www.myget.org) .
   I don't plan on publishing my nuget package as it is very fuzzy around the licensing for the TestFlight SDK.
 
 The final step is to add your new feed url to the NuGet package addin for Xamarin Studio or Visual Studio.
-  The TestFlight Nuget is now ready to use and can be added to every project, and I didn't have to manage a pre-compiled dll.
+  The TestFlight Nuget is now ready to use and can be added to every project, and eliminated managing a pre-compiled dll.
 
 {% highlight powershell %}  
 PM> Install-Package TestFlight.Touch -Version 3.0.0
