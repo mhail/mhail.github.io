@@ -5,8 +5,12 @@ tagline: You've Found My Blog
 ---
 {% include JB/setup %}
 
-Im a software developer, this blog is really techie.
-If your not in to that sort of thing click here for [cats](http://cat-bounce.com).
+<div class="jumbotron">
+  <h1>I'm a software developer</h1>
+  <p>This blog is full of techno-jargon&#0153;</p>
+</div>
+
+## New Posts
 
 <div class="blog-index">  
   {% assign post = site.posts.first %}
