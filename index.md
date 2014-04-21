@@ -13,7 +13,8 @@ tagline: You've Found My Blog
 ## New Posts
 
 <div class="blog-index">  
-  {% assign post = site.posts.first %}
+  {% for post in site.posts %}
   {% assign content = post.content %}
   {% include post_detail.html %}
+  {% endfor %}
 </div>
