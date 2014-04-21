@@ -6,7 +6,7 @@ tags : [Xamarin, iOS, c#]
 ---
 {% include JB/setup %}
 
-Using test flight for beta testing has been my de-facto standard for enterprise apps.
+Using test flight for beta testing has been my de-facto standard for mobile apps.
   Integration with Xamarin is easy from a deployment standpoint, but setting up a project to use the TestFlight API requires clearing a few hoops.
   You would think that there is a component already built or a Nuget package already out there?
   The best option was the Testflight binding from the [monotouch-bindings](https://github.com/mono/monotouch-bindings/tree/master/TestFlight) github project.
