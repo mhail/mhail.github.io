@@ -1,6 +1,6 @@
 ---
 layout: post
-category : Mobile
+category : "Mobile"
 title: "Xamarin TestFlight Nuget"
 tags : [Xamarin, iOS, c#]
 ---
