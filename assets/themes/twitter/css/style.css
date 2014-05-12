@@ -4,3 +4,7 @@ body { padding-top: 2em; }
   background: linear-gradient(to bottom, #ffffff 0%,#ffffff 90%, rgba(255,255,255,0) 100%);
   border-bottom: none;
 }
+
+.tag-cloud .label {
+  font-size: 1.1em;
+}

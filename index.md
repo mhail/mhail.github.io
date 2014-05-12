@@ -2,6 +2,7 @@
 layout: page
 title: Welcome
 tagline: You've Found My Blog
+icon: home
 ---
 {% include JB/setup %}
 
@@ -12,11 +13,12 @@ tagline: You've Found My Blog
 
 </div>
 
-## New Posts
-
 <div class="blog-index">  
   {% for post in site.posts %}
   {% assign content = post.content %}
+  {% if forloop.index != 1 %}
+  <hr/>
+  {% endif %}
   {% include post_detail.html %}
   {% endfor %}
 </div>

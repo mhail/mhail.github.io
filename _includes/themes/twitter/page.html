@@ -1,5 +1,8 @@
 <div class="page-header">
   <h1>
+    {% if page.icon and page.path != 'index.md' %}
+    <i class="fa fa-{{page.icon}}"></i>
+    {% endif %}
     {{ page.title }}
     {% if page.tagline %}
     <small>{{ page.tagline }}</small>
