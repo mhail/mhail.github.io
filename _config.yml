@@ -77,7 +77,7 @@ JB :
   rss_path : /rss.xml
 
   tags_list:
-    provider: custom
+    provider: 
 
   # Settings for comments helper
   # Set 'provider' to the comment provider you want to use.
