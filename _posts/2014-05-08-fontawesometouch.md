@@ -20,7 +20,7 @@ I have created a nuget package that can be referenced in a Xamarin iOS project.
   It provides a strongly typed representation of all of the [FontAwesome](http://fontawesome.io/icons/) Icons, and provides methods for generating a UIImage at runtime of the desired size.
   This allows for custom buttons in navigation and tool bars.
 
-{% highlight csharp %}
+{% highlight c# %}
 
 rightNavButton = new UIBarButtonItem (
   FontAwesome.Touch.Icon.CloudDownload.ToUIImage(30),
@@ -29,11 +29,9 @@ rightNavButton = new UIBarButtonItem (
 
 {% endhighlight %}
 
-[See Here](https://raw.githubusercontent.com/mhail/FontAwesome.Touch/master/Art/sample-app.png)
+![See Here](https://raw.githubusercontent.com/mhail/FontAwesome.Touch/master/Art/sample-app.png)
 
-### GitHub Project
-
-https://github.com/mhail/FontAwesome.Touch
+### [GitHub Project](https://github.com/mhail/FontAwesome.Touch)
 
 ### Next Steps
 
