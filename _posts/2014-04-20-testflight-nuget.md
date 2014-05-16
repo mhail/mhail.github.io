@@ -64,8 +64,19 @@ let RestoreCustomPackages() =
         RestorePackage (fun p ->
           { p with
               Sources = [
-                         "https://go.microsoft.com/fwlink/?LinkID=206669"; // Main Nuget Feed url
-                         "https://www.myget.org/F/<YOUR_USER_NAME>/" // Your custom Feed
+                // Main Nuget Feed url
+                "http://packages.nuget.org/v1/FeedService.svc/";
+                // Your custom Feed
+                "https://www.myget.org/F/<YOUR_USER_NAME>/"
               ]
           }) id)
+{% endhighlight %}
+
+This step can take up to 5-10 seconds to run.
+  This can get very annoying when perfoming local builds and tasks.
+  Wrap the ```RestoreCustomPackages``` in a if block with a build param.
+
+{% highlight fsharp %}
+if (not (hasBuildParam "SkipUpdate")) then
+    RestoreCustomPackages()
 {% endhighlight %}

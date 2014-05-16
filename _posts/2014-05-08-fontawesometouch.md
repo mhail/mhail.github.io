@@ -16,7 +16,7 @@ One of the first chalenges I face when creating a mobile app is creating image a
 
 ###FontAwesome.Touch
 
-I have created a nuget package that can be referenced in a Xamarin iOS project.  
+I have created a nuget package that can be referenced in a Xamarin iOS project.
   It provides a strongly typed representation of all of the [FontAwesome](http://fontawesome.io/icons/) Icons, and provides methods for generating a UIImage at runtime of the desired size.
   This allows for custom buttons in navigation and tool bars.
 
