@@ -107,4 +107,4 @@ public static class BaseViewExtensions
 
 There is a [Beer Brewing Mash Calculator](https://github.com/mhail/MashCalc/)
   in the works using the base view model, fluent bindings as well as some other tricks.
-  Check it out to see som of the other helpers and extensions for Xamrin Forms.
+  Check it out to see some of the other helpers and extensions for Xamarin Forms.
