@@ -14,7 +14,7 @@ icon: home
 </div>
 
 <div class="blog-index">  
-  {% for post in site.posts %}
+  {% for post in site.posts limit:3 %}
   {% assign content = post.content %}
   {% if forloop.index != 1 %}
   <hr/>
