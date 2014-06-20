@@ -3,4 +3,10 @@
     <a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
 {% endif %}
 </h1>
+<div class="date">
+  <span class="label label-default">
+  <i class="fa fa-calendar"></i> {{ post.date | date: "%B %e, %Y" }}
+  </span>
+</div>
+<br/>
 <div class="entry-content">{{ content }}</div>
