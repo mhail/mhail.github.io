@@ -3,7 +3,7 @@
 permalink: /:categories/:year/:month/:day/:title
 safe: true
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-pygments: true
+#highlighter: pygmints
 markdown: kramdown
 
 # Themes are encouraged to use these universal variables
@@ -77,7 +77,7 @@ JB :
   rss_path : /rss.xml
 
   tags_list:
-    provider: 
+    provider:
 
   # Settings for comments helper
   # Set 'provider' to the comment provider you want to use.
