@@ -10,12 +10,12 @@ markdown: kramdown
 # so be sure to set them if your theme uses them.
 #
 title : Matthew Hail
-tagline: You've Found My Blog
+tagline: Logic from the bits
 author :
   name : Matthew Hail
   email : matt@mhail.io
   github : mhail
-  twitter :
+  twitter : hail_matt
   feedburner :
 
 # The production_url is only used when full-domain names are needed

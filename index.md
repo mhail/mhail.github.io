@@ -1,15 +1,15 @@
 ---
 layout: page
 title: Welcome
-tagline: You've Found My Blog
+tagline:
 icon: home
 ---
 {% include JB/setup %}
 
 <div class="jumbotron">
   <i class="fa fa-code fa-border fa-5x pull-right"></i>
-  <h1>I'm a software developer</h1>
-  <p>This blog is full of techno-jargon&#0153;</p>
+  <h1>Random bits of logic</h1>
+  <p>WARNING: This blog is full of techno-jargon&#0153;</p>
 
 </div>
 
